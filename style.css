@@ -1,0 +1,159 @@
+body{
+margin: 150px auto;    
+}
+
+.sq1 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 330px 0px 20px 600px;
+    position: absolute;
+}
+
+.sq2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 330px 0px 20px 810px;
+    position: absolute;
+}
+
+.sq3 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin: 130px 0px 0px 710px;
+    position: absolute;
+}
+
+.base {
+    background: black;
+    display: inline-block;
+    height: 385px;
+    margin-left: 570px;
+    margin-top: 238px;
+    position: static;
+    width: 378px;
+}
+
+.basetop {
+    border-bottom: 190px solid red;
+    border-left: 195px solid transparent;
+    border-right: 183px solid transparent;
+    content: "";
+    height: 0;
+    left: 0;
+    position: static;
+    top: -150px;
+    width: 0;
+    margin-left: 569px;
+    margin-top: -575px;
+}
+
+.cross1 {
+    background: red;
+    height: 100px;
+    position: absolute;
+    left: 9px;
+    width: 10px;
+    margin: 88px 0px 0px 842px;
+}
+
+.cross1:after {
+    background: red;
+    content: "";
+    height: 10px;
+    left: -40px;
+    position: absolute;
+    top: 47px;
+    width: 100px;
+}
+
+.cross2 {
+    background: red;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    width: 10px;
+    margin: 88px 0px 0px 560px;
+}
+
+.cross2:after {
+    background: red;
+    content: "";
+    height: 10px;
+    left: -40px;
+    position: absolute;
+    top: 47px;
+    width: 100px;
+}
+
+.cross3 {
+    background: red;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    width: 10px;
+    margin: -112px 0px 0px 670px;
+}
+
+.cross3:after {
+    background: red;
+    content: "";
+    height: 10px;
+    left: -40px;
+    position: absolute;
+    top: 43px;
+    width: 100px;
+}
+
+.chimneytop {
+    width: 80px;
+    height: 20px;
+    background: red;
+    border-radius: 35px;
+    margin: -260px 368px 368px 806px;
+    position: absolute;
+}
+
+.chimneybody1 {
+    width: 79px;
+    height: 94px;
+    background: aqua;
+    position: absolute;
+    margin: -238px 0 0 807px;
+}
+
+.chimneybody2 {
+    width: 0;
+    height: 0;
+    border-top: 79px solid aqua;
+    border-left: 78px solid transparent;
+    position: absolute;
+    margin: -144px 0px 0px 808px;
+}
+
+.doorknob {
+    height: 10px;
+    width: 10px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 289px 226px 226px 715px;
+    position: absolute;
+}
+
+.door {
+    width: 100px;
+    height: 178px;
+    position: absolute;
+    margin: 203px 663px 663px 704px;
+    background: red;
+}
+
+
+.smoke {
+    margin-left: 799px;
+    margin-top: -380px;
+    width: 80px;
+    position: absolute
+}
